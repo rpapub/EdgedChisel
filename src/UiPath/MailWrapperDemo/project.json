@@ -1,14 +1,63 @@
 {
-    "name": "MailWrapperDemo",
-    "description": "Exploratory code fragments shaped to probe the edges of non-LowCode UiPath workflows.",
-    "dependencies": {
-      "UiPath.System.Activities": "[22.10.4]",
-      "UiPath.Testing.Activities": "[22.10.3]"
+  "name": "MailWrapperDemo",
+  "projectId": "d766b9ea-1834-4f44-8147-42f39d08e36b",
+  "description": "Exploratory code fragments shaped to probe the edges of non-LowCode UiPath workflows.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.CodedWorkflows": "[24.10.1]",
+    "UiPath.Mail.Activities": "[2.2.10]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.2.10]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.5.0",
+  "projectVersion": "0.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
     },
-    "main": "Main.xaml",
-    "projectVersion": "0.0.1",
-    "projectType": "Process",
-    "schemaVersion": "4.0",
-    "studioVersion": "22.10.5.0",
-    "targetFramework": "Windows"
-  }
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "7f196ae6-fd9c-42d6-8278-facf4f9854c9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
