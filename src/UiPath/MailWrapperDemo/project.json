@@ -1,0 +1,14 @@
+{
+    "name": "MailWrapperDemo",
+    "description": "Exploratory code fragments shaped to probe the edges of non-LowCode UiPath workflows.",
+    "dependencies": {
+      "UiPath.System.Activities": "[22.10.4]",
+      "UiPath.Testing.Activities": "[22.10.3]"
+    },
+    "main": "Main.xaml",
+    "projectVersion": "0.0.1",
+    "projectType": "Process",
+    "schemaVersion": "4.0",
+    "studioVersion": "22.10.5.0",
+    "targetFramework": "Windows"
+  }
